@@ -10,3 +10,46 @@ body {
   display: flex;
   flex-direction: column;
 }
+.head{
+  width: 250px;
+  height: 250px;
+  background-color: #e6d57a;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+ margin-top: 100px;
+}
+
+.eye{
+  width: 40px;
+  height: 40px;
+  background-color: #221f1f;
+  border-radius: 50%;
+  transform: scaleY(1.5);
+}
+.eyes{
+  width: 200px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.mouse{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 45%;
+  background-color: #221f1f;
+  left: 30%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.mouse-top{
+  width: 120px;
+  height: 80px;
+  position: absolute;
+  top: 45%;
+  background-color: #e6d57a;
+  left: 26%;
+  border-radius: 50%;
+  z-index: 10;
+}
